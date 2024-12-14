@@ -1,4 +1,5 @@
-# Let's build with Gemini 2.0 Flash E
+# Let's build with Gemini 2.0 Flash 
+by: Rahatara Ferdousi
 This repository contains Jupyter notebooks that serve as starter guides for working with Gemini 2.0. These notebooks provide examples and templates for spatial and general tasks to help you get started quickly.
 Gemini 2.0 is Google's latest large language model (LLM), succeeding the original Gemini. It's designed to be multimodal, meaning it can understand and operate across different types of information like text, code, images, audio, and video.
 ![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
@@ -96,6 +97,30 @@ Keep in mind that Gemini 2.0 is still being rolled out and improved, so informat
 
 If you have ideas for improving these notebooks or adding more examples, feel free to fork the repository and submit a pull request.
 
+If You're looking for more hands-on experience with Gemini 2.0! Here are some GitHub repositories with Colab notebooks that will help you get started:
+
+**1. Google Cloud Platform's Generative AI Samples:**
+
+*   **Main Repository:** This is the central hub for Google's generative AI examples, including Gemini:
+    *   [https://github.com/GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+*   **Gemini 2.0 Flash Intro:** This notebook provides a great introduction to using the Gemini API with the Gemini 2.0 Flash model. It covers various tasks like text generation, chat, multimodal data processing, and function calling:
+    *   [https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_2_0_flash.ipynb](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_2_0_flash.ipynb)
+
+**2. Google Gemini Cookbook:**
+
+*   **Cookbook Repository:** This repository offers a collection of examples and guides for using the Gemini API:
+    *   [https://github.com/google-gemini/cookbook](https://github.com/google-gemini/cookbook)
+*   **Multimodal Live API Starter:** This notebook demonstrates how to use the Gemini 2.0 Multimodal Live API for real-time vision and audio streaming applications:
+    *   [https://github.com/google-gemini/cookbook/blob/main/gemini-2/live_api_starter.ipynb](https://github.com/google-gemini/cookbook/blob/main/gemini-2/live_api_starter.ipynb)
+
+**Key things to note when using these Colab notebooks:**
+
+*   **API Keys:** You'll need to set up an API key to access the Gemini API. The notebooks usually provide instructions on how to do this, often involving creating a Colab Secret.
+*   **Installation:** You'll likely need to install the `google-genai` Python SDK. This is usually done with a simple `!pip install` command within the Colab notebook.
+*   **Authentication:** You might need to authenticate your Colab environment to access Google Cloud resources.
+
+These resources should provide you with a good starting point for experimenting with Gemini 2.0 in Colab. They offer practical examples and cover various aspects of the API, allowing you to explore its capabilities firsthand.
+
 ## Support
 
-For any questions or issues, please open an issue in this repository or reach out to the maintainer.
+For any questions or issues, please open an issue in this repository or reach out to the maintainer rferd068@uottawa.ca.
