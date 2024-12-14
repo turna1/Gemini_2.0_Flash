@@ -1,9 +1,9 @@
-# Project: Gemini 2.0 Notebooks
-
-![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
-
+# Let's build with Gemini 2.0 Flash E
 This repository contains Jupyter notebooks that serve as starter guides for working with Gemini 2.0. These notebooks provide examples and templates for spatial and general tasks to help you get started quickly.
 Gemini 2.0 is Google's latest large language model (LLM), succeeding the original Gemini. It's designed to be multimodal, meaning it can understand and operate across different types of information like text, code, images, audio, and video.
+![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
+
+
 
 *   **Multimodality:** This is a core feature. Gemini 2.0 aims to seamlessly integrate various data types, allowing for more complex and nuanced understanding and generation of content. For example, it could analyze an image and generate a detailed text description, or take a text prompt and create a corresponding image.
 *   **Improved Reasoning and Coding:** Google has emphasized advancements in Gemini's reasoning abilities, making it better at problem-solving and logical deduction. It also shows improved performance in coding tasks, including generating, explaining, and debugging code in multiple programming languages.
