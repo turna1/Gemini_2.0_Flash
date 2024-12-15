@@ -1,8 +1,7 @@
 # Let's build with Gemini 2.0 Flash 
 **by: Rahatara Ferdousi**
 
-
-This repository contains starter guides, code files, and Jupyter notebooks to help you build custom apps and user interfaces leveraging Google Gemini 2.0 Flash.
+This repository contains **starter guides**, **code files**, and **Jupyter notebooks** to help you build **custom apps** and **user interfaces** leveraging [Google Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/). I developed the apps with custom UI and modified the official started notebooks in a beginner friendly manner.  
 ![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
 
 ## **What’s Inside?**
@@ -19,9 +18,16 @@ This repository contains starter guides, code files, and Jupyter notebooks to he
    - **Files**:  
      - `googlesearch_app.py`  
      - `googlesearch_requirements.txt`  
-   - Flexible for applications needing factual, grounded responses.  
+   - Flexible for applications needing factual, grounded responses.
+     
 
-3. **Starter Guides in Jupyter Notebooks**  
+3. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
+   - A RAG-based application that uses **Gemini 2.0 Flash** for retrieving knowledge from external sources (PDF) and offering retrieval with language generation.  
+   - **Files**:  
+     - `rag_app.py`  
+     - `rag_requirements.txt`  
+   - Ideal for building apps that require dynamic information retrieval and accurate contextual responses.
+4. **Starter Guides in Jupyter Notebooks**  
    - Ready-to-use **Jupyter notebooks** with practical examples for:  
      - **Spatial Tasks**: Image-based reasoning and object detection.  
        - File: `gemini2_0_spatial_starter.ipynb`  
