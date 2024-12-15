@@ -1,0 +1,4 @@
+gradio
+google-genai
+google-auth
+google.generativeai
