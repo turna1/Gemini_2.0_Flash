@@ -1,0 +1,9 @@
+google-generativeai==0.3.1
+opencv-python-headless
+requests
+gradio
+huggingface_hub
+PyMuPDF
+sentence-transformers
+numpy
+faiss-cpu
