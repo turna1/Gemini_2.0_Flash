@@ -24,9 +24,81 @@ This repository contains starter guides, code files, and Jupyter notebooks to he
      - **Spatial Tasks**: Image-based reasoning and object detection.  
        - File: `gemini2_0_spatial_starter.ipynb`  
      - **General Multimodal Tasks**: Text, image, and code understanding templates.  
-       - File: `gemini2_0_starter.ipynb`  
+       - File: `gemini2_0_starter.ipynb`
+      
+## **How to Use these resources**
 
-* **Learn More about Gemini2.0**
+### **1. Using the Applications (`app.py` and `requirements.txt`)**
+
+#### **Option 1: Deploy on Hugging Face Spaces**  
+1. **Rename Files**:  
+   - Remove "spatial" or "google search" from the filenames for clarity.  
+     - Example: Rename `spatial_app.py` → `app.py` and `spatial_requirements.txt` → `requirements.txt`.  
+   - Do the same for `googlesearch_app.py` and `googlesearch_requirements.txt` if deploying the grounded text app.
+
+2. **Upload to Hugging Face Spaces**:  
+   - Create a new Space on [Hugging Face](https://huggingface.co/spaces).  
+   - Upload the `app.py` and `requirements.txt` files.  
+   - Hugging Face will automatically set up the environment and run the app.
+
+3. **Run the App**:  
+   - Once deployed, the app will be available at a shareable URL.  
+   - Test it by uploading an image and providing input prompts.
+
+---
+
+#### **Option 2: Run Locally on Your Machine**  
+1. **Set Up Your Environment**:  
+   - Clone the repository:  
+     ```bash
+     git clone https://github.com/your-repo-url
+     cd your-repo-folder
+     ```
+
+   - Install dependencies:  
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+---
+2. **Run the App**:  
+   - For **Spatial App**:  
+     ```bash
+     python spatial_app.py
+     ```  
+   - For **Grounded Text App**:  
+     ```bash
+     python googlesearch_app.py
+     ```
+
+3. **Access the App**:  
+   - Open your browser and navigate to:  
+     ```
+     http://127.0.0.1:7860
+     ```  
+   - Upload images, provide prompts, and test the app functionality.
+
+
+### **2. Using the Jupyter Notebooks**  
+To run the notebooks, use **Google Colab** for an interactive experience.
+
+1. **Open the Notebook in Colab**:  
+   - For **Spatial Tasks**:  
+     - Open [`gemini2_0_spatial_starter.ipynb`](https://colab.research.google.com) in Colab.  
+   - For **General Multimodal Tasks**:  
+     - Open [`gemini2_0_starter.ipynb`](https://colab.research.google.com) in Colab.
+
+2. **Follow Step-by-Step Instructions**:  
+   - Run each cell in sequence.  
+   - Follow the inline comments and guidance provided within the notebook.
+
+3. **Test and Modify**:  
+   - Modify prompts, upload images, or extend code examples to explore the capabilities of Gemini 2.0.  
+
+---
+
+
+# **Learn More about Gemini2.0**
 Gemini 2.0 is Google's latest large language model (LLM), succeeding the original Gemini. It's designed to be multimodal, meaning it can understand and operate across different types of information like text, code, images, audio, and video.
 
 *   **Multimodality:** This is a core feature. Gemini 2.0 aims to seamlessly integrate various data types, allowing for more complex and nuanced understanding and generation of content. For example, it could analyze an image and generate a detailed text description, or take a text prompt and create a corresponding image.
@@ -68,14 +140,6 @@ Here are some of the most relevant and helpful links to learn more:
 Keep in mind that Gemini 2.0 is still being rolled out and improved, so information may change over time. These links should give you a solid foundation for understanding its capabilities and potential.
 
 
-   
-
-
-   
-
-
-If you have ideas for improving these notebooks or adding more examples, feel free to fork the repository and submit a pull request.
-
 If You're looking for more hands-on experience with Gemini 2.0! Here are some GitHub repositories with Colab notebooks that will help you get started:
 
 **1. Google Cloud Platform's Generative AI Samples:**
@@ -99,6 +163,8 @@ If You're looking for more hands-on experience with Gemini 2.0! Here are some Gi
 *   **Authentication:** You might need to authenticate your Colab environment to access Google Cloud resources.
 
 These resources should provide you with a good starting point for experimenting with Gemini 2.0 in Colab. They offer practical examples and cover various aspects of the API, allowing you to explore its capabilities firsthand.
+
+If you have ideas for improving these notebooks or adding more examples, feel free to fork the repository and submit a pull request.
 
 ## Support
 
