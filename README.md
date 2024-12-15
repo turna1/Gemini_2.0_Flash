@@ -1,13 +1,33 @@
 # Let's build with Gemini 2.0 Flash 
 **by: Rahatara Ferdousi**
-
-This repository contains Jupyter notebooks that serve as starter guides for working with Gemini 2.0. These notebooks provide examples and templates for spatial and general tasks to help you get started quickly.
-Gemini 2.0 is Google's latest large language model (LLM), succeeding the original Gemini. It's designed to be multimodal, meaning it can understand and operate across different types of information like text, code, images, audio, and video.
-
-
+This repository contains starter guides, code files, and Jupyter notebooks to help you build custom apps and user interfaces leveraging Google Gemini 2.0 Flash.
 ![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
 
+## **What’s Inside?**
 
+1. **Custom UI for Spatial Understanding**  
+   - A custom **Gradio-based application** that utilizes **Gemini 2.0** for spatial reasoning.  
+   - **Files**:  
+     - `spatial_app.py`  
+     - `spatial_requirements.txt`  
+   - Generates **labeled bounding boxes** and annotations for objects in images based on user input prompts.  
+
+2. **Grounded Text Response Flexibility**  
+   - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.  
+   - **Files**:  
+     - `googlesearch_app.py`  
+     - `googlesearch_requirements.txt`  
+   - Flexible for applications needing factual, grounded responses.  
+
+3. **Starter Guides in Jupyter Notebooks**  
+   - Ready-to-use **Jupyter notebooks** with practical examples for:  
+     - **Spatial Tasks**: Image-based reasoning and object detection.  
+       - File: `gemini2_0_spatial_starter.ipynb`  
+     - **General Multimodal Tasks**: Text, image, and code understanding templates.  
+       - File: `gemini2_0_starter.ipynb`  
+
+* **Learn More about Gemini2.0**
+Gemini 2.0 is Google's latest large language model (LLM), succeeding the original Gemini. It's designed to be multimodal, meaning it can understand and operate across different types of information like text, code, images, audio, and video.
 
 *   **Multimodality:** This is a core feature. Gemini 2.0 aims to seamlessly integrate various data types, allowing for more complex and nuanced understanding and generation of content. For example, it could analyze an image and generate a detailed text description, or take a text prompt and create a corresponding image.
 *   **Improved Reasoning and Coding:** Google has emphasized advancements in Gemini's reasoning abilities, making it better at problem-solving and logical deduction. It also shows improved performance in coding tasks, including generating, explaining, and debugging code in multiple programming languages.
@@ -48,55 +68,11 @@ Here are some of the most relevant and helpful links to learn more:
 Keep in mind that Gemini 2.0 is still being rolled out and improved, so information may change over time. These links should give you a solid foundation for understanding its capabilities and potential.
 
 
-
-## Notebooks Included
-
-### 1. **Gemini 2.0 Spatial Starter**
-   File: `gemini2_0_spatial_starter.ipynb`
    
-   - **Description**: This notebook demonstrates spatial capabilities in Gemini 2.0, focusing on handling image data..
-   - **Key Features**:
-     - Spatial data handling
-     - Use-Cases of spatial analysis with Bounding Box 
 
-### 2. **Gemini 2.0 Starter**
-   File: `gemini_2_0_starter.ipynb`
+
    
-   - **Description**: This notebook provides a general-purpose introduction to Gemini 2.0, showcasing its core features and functionality for a variety of tasks.
-   - **Key Features**:
-     - Introduction to Gemini 2.0 new capabilities like Google Search, Chat with Youtube Video
-     - Basic examples of AI-driven workflows
 
-
-
-## How to Use
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/gemini-2.0-notebooks.git
-   ```
-
-2. Navigate to the directory:
-   ```bash
-   cd gemini-2.0-notebooks
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Open the notebooks in Jupyter Notebook or JupyterLab:
-   ```bash
-   jupyter notebook
-   ```
-
-## Prerequisites
-
-- Python 3.7 or higher
-- Jupyter Notebook or JupyterLab
-
-## Contributing
 
 If you have ideas for improving these notebooks or adding more examples, feel free to fork the repository and submit a pull request.
 
