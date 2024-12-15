@@ -1,7 +1,7 @@
 # Let's build with Gemini 2.0 Flash 
 **by: Rahatara Ferdousi**
 
-This repository contains **starter guides**, **code files**, and **Jupyter notebooks** to help you build **custom apps** and **user interfaces** leveraging [Google Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/). I developed the apps with custom UI and modified the official started notebooks in a beginner friendly manner.  
+This repository contains **starter guides**, **code files**, and **Jupyter notebooks** to help you build **custom apps** and **user interfaces** leveraging [Google Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/). I developed the apps with custom UI and modified the official starter notebooks in a beginner friendly manner.  
 ![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
 
 ## **What’s Inside?**
