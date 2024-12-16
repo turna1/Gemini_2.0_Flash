@@ -18,15 +18,20 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
 ![image](https://github.com/user-attachments/assets/a1ac75ea-19a9-4723-b96b-88a3285ee9da)
 
 3. **Grounded Text Response Flexibility**  
-   - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.  
+   - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.
+    ![image](https://github.com/user-attachments/assets/77356607-bdf4-4c91-86de-fd3b01678b58)
+ 
    - **Files**:  
      - `googlesearch_app.py`  
-     - `googlesearch_requirements.txt`  
+     - `googlesearch_requirements.txt`  ![image](https://github.com/user-attachments/assets/48ba9736-0889-40b2-a3ed-c457fc61f3fe)
+
    - Flexible for applications needing factual, grounded responses.
      
 
 4. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
-   - A RAG-based application that uses **Gemini 2.0 Flash** for retrieving knowledge from external sources (PDF) and offering retrieval with language generation.  
+   - A RAG-based application that uses **Gemini 2.0 Flash** for retrieving knowledge from external sources (PDF) and offering retrieval with language generation.
+     ![image](https://github.com/user-attachments/assets/bd4abe75-c6b8-472c-8651-6bea5d8b16aa)
+
    - **Files**:  
      - `rag_app.py`  
      - `rag_requirements.txt`  
