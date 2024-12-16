@@ -14,7 +14,7 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
      - `spatial_app.py`  
      - `spatial_requirements.txt`  
    - Generates **labeled bounding boxes** and annotations for objects in images based on user input prompts.  
-
+![image](https://github.com/user-attachments/assets/58082855-cf01-431f-a802-cfd6b01002ab)
 3. **Grounded Text Response Flexibility**  
    - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.  
    - **Files**:  
