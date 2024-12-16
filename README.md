@@ -6,14 +6,16 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
 
 ## **What’s Inside?**
 
-1. **Custom UI for Spatial Understanding**  
+1. **Custom UI for Spatial Understanding**
+   ![image](https://github.com/user-attachments/assets/3710ec6b-b97b-4323-8dd9-233df12482f5)
+
    - A custom **Gradio-based application** that utilizes **Gemini 2.0** for spatial reasoning.  
    - **Files**:  
      - `spatial_app.py`  
      - `spatial_requirements.txt`  
    - Generates **labeled bounding boxes** and annotations for objects in images based on user input prompts.  
 
-2. **Grounded Text Response Flexibility**  
+3. **Grounded Text Response Flexibility**  
    - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.  
    - **Files**:  
      - `googlesearch_app.py`  
@@ -21,13 +23,13 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
    - Flexible for applications needing factual, grounded responses.
      
 
-3. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
+4. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
    - A RAG-based application that uses **Gemini 2.0 Flash** for retrieving knowledge from external sources (PDF) and offering retrieval with language generation.  
    - **Files**:  
      - `rag_app.py`  
      - `rag_requirements.txt`  
    - Ideal for building apps that require dynamic information retrieval and accurate contextual responses.
-4. **Starter Guides in Jupyter Notebooks**  
+5. **Starter Guides in Jupyter Notebooks**  
    - Ready-to-use **Jupyter notebooks** with practical examples for:  
      - **Spatial Tasks**: Image-based reasoning and object detection.  
        - File: `gemini2_0_spatial_starter.ipynb`  
