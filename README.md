@@ -1,10 +1,15 @@
 # Let's build with Gemini 2.0 Flash 
 **by: Rahatara Ferdousi**
 
-This repository contains **starter guides**, **code files**, and **Jupyter notebooks** to help you build **custom apps** and **user interfaces** leveraging [Google Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/). I developed the apps with custom UI and modified the official starter notebooks in a beginner friendly manner.  
+This repository contains **starter guides**, **code files**, and **Jupyter notebooks** to help you build **custom apps** and **user interfaces** leveraging [Google Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/). 
+I will periodically update on projects created using Gemini2.0 Flash.
+I developed the apps with custom UI and modified the official starter notebooks in a beginner friendly manner.  
 ![image](https://github.com/user-attachments/assets/4935c8e1-3fc8-410f-8f75-60ed0ea0749c)
 
 ## **What’s Inside?**
+
+1. **Project Links**
+  i) **Project HiMa**- [A Multmodal Assistant for Maternity Support.](https://github.com/turna1/HiMa?tab=readme-ov-file)
 
 1. **Custom UI for Spatial Understanding**
    ![image](https://github.com/user-attachments/assets/3710ec6b-b97b-4323-8dd9-233df12482f5)
@@ -17,7 +22,7 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
 ![image](https://github.com/user-attachments/assets/58082855-cf01-431f-a802-cfd6b01002ab)
 ![image](https://github.com/user-attachments/assets/a1ac75ea-19a9-4723-b96b-88a3285ee9da)
 
-3. **Grounded Text Response Flexibility**  
+2. **Grounded Text Response Flexibility**  
    - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.
     ![image](https://github.com/user-attachments/assets/77356607-bdf4-4c91-86de-fd3b01678b58)
  
@@ -28,7 +33,7 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
    - Flexible for applications needing factual, grounded responses.
      
 
-4. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
+3. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
    - A RAG-based application that uses **Gemini 2.0 Flash** for retrieving knowledge from external sources (PDF) and offering retrieval with language generation.
      ![image](https://github.com/user-attachments/assets/bd4abe75-c6b8-472c-8651-6bea5d8b16aa)
 
@@ -36,7 +41,7 @@ This repository contains **starter guides**, **code files**, and **Jupyter noteb
      - `rag_app.py`  
      - `rag_requirements.txt`  
    - Ideal for building apps that require dynamic information retrieval and accurate contextual responses.
-5. **Starter Guides in Jupyter Notebooks**  
+4. **Starter Guides in Jupyter Notebooks**  
    - Ready-to-use **Jupyter notebooks** with practical examples for:  
      - **Spatial Tasks**: Image-based reasoning and object detection.  
        - File: `gemini2_0_spatial_starter.ipynb`  
