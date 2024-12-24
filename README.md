@@ -12,7 +12,7 @@ I developed the apps with custom UI and modified the official starter notebooks 
    
   i) **Project HiMa**- [A Multmodal Assistant for Maternity Support.](https://github.com/turna1/HiMa?tab=readme-ov-file)
 
-1. **Custom UI for Spatial Understanding**
+2. **Custom UI for Spatial Understanding**
    ![image](https://github.com/user-attachments/assets/3710ec6b-b97b-4323-8dd9-233df12482f5)
 
    - A custom **Gradio-based application** that utilizes **Gemini 2.0** for spatial reasoning.  
@@ -23,7 +23,7 @@ I developed the apps with custom UI and modified the official starter notebooks 
 ![image](https://github.com/user-attachments/assets/58082855-cf01-431f-a802-cfd6b01002ab)
 ![image](https://github.com/user-attachments/assets/a1ac75ea-19a9-4723-b96b-88a3285ee9da)
 
-2. **Grounded Text Response Flexibility**  
+3. **Grounded Text Response Flexibility**  
    - A grounded response app that combines **Gemini 2.0 Flash** with **Google Search** to provide real-time, search-enhanced answers.
     ![image](https://github.com/user-attachments/assets/77356607-bdf4-4c91-86de-fd3b01678b58)
  
@@ -34,7 +34,7 @@ I developed the apps with custom UI and modified the official starter notebooks 
    - Flexible for applications needing factual, grounded responses.
      
 
-3. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
+4. **Retrieval-Augmented Generation (RAG) App to Chat with Multiple PDFs**  
    - A RAG-based application that uses **Gemini 2.0 Flash** for retrieving knowledge from external sources (PDF) and offering retrieval with language generation.
      ![image](https://github.com/user-attachments/assets/bd4abe75-c6b8-472c-8651-6bea5d8b16aa)
 
@@ -42,7 +42,7 @@ I developed the apps with custom UI and modified the official starter notebooks 
      - `rag_app.py`  
      - `rag_requirements.txt`  
    - Ideal for building apps that require dynamic information retrieval and accurate contextual responses.
-4. **Starter Guides in Jupyter Notebooks**  
+5. **Starter Guides in Jupyter Notebooks**  
    - Ready-to-use **Jupyter notebooks** with practical examples for:  
      - **Spatial Tasks**: Image-based reasoning and object detection.  
        - File: `gemini2_0_spatial_starter.ipynb`  
